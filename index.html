@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <script src="js/all.min.js"></script>
+  <script src="js/moment.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-section">
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" name="search-city" id="search-input" placeholder="Search city...">
+      </div>
+      <div class="info-wrapper">
+        <p class="city-name">Helsinki</p>
+        <p class="weather-state">Cloudy</p>
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="weather-icon">
+        <p class="temperature">26</p>
+      </div>
+    </div>
+    <div class="additional-section">
+      <div class="row">
+        <div class="item">
+          <div class="label">Sun rise</div>
+          <div class="value sunrise">6:14</div>
+        </div>
+        <div class="item">
+          <div class="label">Sun down</div>
+          <div class="value sunset">17:57</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="item">
+          <div class="label">Humidity</div>
+          <div class="value"><span class="humidity">67</span>%</div>
+        </div>
+        <div class="item">
+          <div class="label">Wind</div>
+          <div class="value"> <span class="wind-speed">6.67</span>km/h</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
